@@ -27,6 +27,9 @@ namespace HelloWorld
             }
 
             Console.WriteLine("Howdy Y'all!!");
+            Console.WriteLine("Please enter you name:");
+            String name = Console.ReadLine();
+            Console.WriteLine($"Good Day: {name}");
 
             var animals = new string[] { "Triceratops", "Gorilla", "Corgi", "Toucan", "cat", "dog" };
                 char[] vowels = { 'a', 'e', 'i', 'o', 'u', 'y' };
@@ -46,7 +49,10 @@ namespace HelloWorld
                 }
 
                 }
-              
+            Console.WriteLine("Please enter your favorite color:");
+            String favColor = Console.ReadLine();
+            Console.WriteLine($"Would you like to have a {favColor} elephant?");
+            
         }
     }
 }
